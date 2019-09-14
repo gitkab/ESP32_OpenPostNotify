@@ -24,7 +24,7 @@ void setup() {
   Serial.println("WiFi Connected");
 
   HTTPClient http;
-  http.begin(IFTTT_WH); /* HTTP URL Define */
+  http.begin(IFTTT_WH);
 
   Serial.print("[HTTP] begin...\n");
   // start connection and send HTTP header
